@@ -1,7 +1,14 @@
-===---*Asteriods Game*---===
+===---*3d website*---===
 
 Copy this code and create a bookmark.
 
 Paste this code as the URL. You can name it whatever you want.
 
 Ensure that there are ABSOLUTELY NO spaces or it will not function whatsoever.
+
+javascript:void function(){(function(){var t=document.body.appendChild(document.createElement("script"));t.onerror=function(){alert("Sorry, the script could not be loaded.")},t.src="http://heerer.herokuapp.com/3d.js"})()}();
+
+
+This will allow you to make the current website 3d.
+
+
