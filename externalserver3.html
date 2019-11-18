@@ -31,23 +31,27 @@
       <div class "wow white-text" style="visibility:visible">
       <div class="c-box">
         <center>
-          <h3>Local PHP-Proxy</h3>
+          <h3>Emergency Node Server</h3>
+          <h3><span style="color: red">This Server Is Currently OFFLINE!</span></h3>
+          <h4>This server will ONLY be activated when someone contacts Shad0wsnhd about the Node Server being offline or having errors!</h4>
         </center>
         <center>
-						<form action="index.php" method="post" style="transform:scale(1.1)">
+						<form action="" method="get" id="web-search-box" style="transform:scale(1.1)">
 							<p>
-								<input name=url type="text" placeholder="Enter URL" style="border:none;border-radius: 5px;padding:10px;"/>&nbsp;
+								<input type="text" placeholder="Enter URL" style="border:none;border-radius: 5px;padding:10px;" id="url" name="url" />&nbsp;
 								<input type="submit" style="border:none;border-radius: 5px;padding:10px;width:40px;background:#704ea0;color:#fff;font-weight:bold;" value="GO" />
 							</p>
 						</form>
-          </center>
-	  		<center>
-          <h4>With this proxy you can:
-            <h6>-View most YouTube videos</h6>
-            <h6>-Access a large number of websites with anonymity and with functionality</h6>
-            <h6>-Hide your activities from the browser history, regardless of whether clearing it is disabled or enabled.</h6>
-          <p>-Powered by PHP-Proxy</p>
         </center>
+        <div class="d-box">
+        <center><h4>Features:</h4></center>
+        <h5>You can:
+        <h6>-Play YouTube videos by putting 'https://invidio.us/' in the above bar!
+        <h6>-Play blocked IO games.</h6>
+        <h6>-View webpages that require lots of scripting to function.</h6>
+        <h6>-Use sites that require the use of WebSocket.io to function.</h6>
+        <center><h5><a href="contact.html"><font color="white">If you have any issues, be sure to contact staff by clicking here</font></a></h6>
+        </div>
       </div>
       <script>
         function $(id) {
@@ -56,7 +60,7 @@
         $('web-search-box').onsubmit = function() {
           var url = $('url').value;
           //this is the URL for the server
-          window.location.href = `cd182/index.php?cdURL=${url}`;
+          window.location.href = `http://www.myfitnessblog.ml/0491eea6b76e4cf383fb2911a0b2a890/${url}`;
           return false;
         };
         window.onload = function() {
